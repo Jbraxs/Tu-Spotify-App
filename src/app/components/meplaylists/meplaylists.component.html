@@ -1,0 +1,19 @@
+<div class="container">
+
+    <div class="text-right m-2">
+            <button routerLink="/home" class="btn btn-outline-danger button">Regresar</button>
+        </div>
+    <div class="card-columns animated fadeIn">
+        <div *ngFor="let me of playlists" class="card puntero">
+            <a [href]="me.external_urls.spotify" target="_blank">
+              <img class="card-img-top" [src]="me.images | noimage" alt="Card image cap">
+            </a>
+              <div class="card-body">
+                  <h5 class="card-title"> {{ me.name}} </h5>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+  

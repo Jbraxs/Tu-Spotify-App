@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Requirements
 You need install: 
-- npm && node
+- npm
 
 First you need to run your server
 ```
